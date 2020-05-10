@@ -8,10 +8,9 @@ public class PersonTest {
             System.out.println(person);
         } catch (IncorrectAgeException | NameUndefinedException e) {
             System.err.println(e.getMessage());
-        }catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.err.println("Błędnie podane dane, proszę spróbować ponownie.");
         }
-
 
     }
 }
